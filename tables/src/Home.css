@@ -16,18 +16,23 @@
   cursor: pointer;
   color: purple;
   font-size: 24px;
+  font-weight: 600;
   border-radius: 5%;
   width: 210px;
+  border-radius: 10px;
+  padding: 5px;
   background-color: rgb(255, 255, 255);
 }
 .banner-btn {
   cursor: pointer;
   color: purple;
+  font-weight: 400;
   margin-left: 10px;
-  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
 }
 .banner-txt {
-  font-weight: 700;
+  font-weight: 400;
   font-size: xx-large;
   color: white;
   margin-left: 25px;

@@ -48,6 +48,8 @@ function Contents() {
       };
 
   return (
+      <div className='backdrop'>
+          <div className='helper'> Light Table </div>
       <table>
               <tr>
                   <th>Company</th>
@@ -68,6 +70,7 @@ function Contents() {
                         )
                     })}
       </table>
+      </div>
   )
 }
 
