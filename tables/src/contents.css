@@ -1,0 +1,46 @@
+table {
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 250px;
+  background-color: white;
+  border-collapse: collapse;
+}
+tr {
+  border-bottom: 1px solid rgb(216, 207, 189);
+}
+th {
+  text-align: center;
+  color: gray;
+  background-color: rgb(228, 227, 227);
+}
+td {
+  text-align: center;
+}
+
+.progress {
+  background-color: #d8d8d8;
+  border-radius: 20px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height: 15px;
+  width: 250px;
+}
+
+.progress-done {
+  background: linear-gradient(to left, lightgreen, lightgreen);
+  box-shadow: 0 3px 3px -5px green, 0 2px 5px green;
+  border-radius: 20px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  height: 100%;
+  width: 0;
+  transition: 2s ease;
+}
+.status {
+  color: red;
+}
