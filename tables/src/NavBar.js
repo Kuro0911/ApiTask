@@ -7,11 +7,11 @@ function NavBar() {
   };
   return (
     <div className={`nav`}>
-      <div class="search-container">
+      <div className="search-container">
         <form action="">
           <input type="text" placeholder="Search..." name="search"></input>
           <button type="submit">
-            <i class="fa fa-search"></i>
+            <i className="fa fa-search"></i>
           </button>
         </form>
       </div>

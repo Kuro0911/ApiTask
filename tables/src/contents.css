@@ -14,6 +14,8 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-top: 15px;
   padding-left: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 table {
   width: 75%;
