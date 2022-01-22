@@ -14,19 +14,23 @@
 .banner-btns {
   margin-left: 60px;
   cursor: pointer;
-  color: purple;
+  color: rgb(94, 114, 228);
+  border-style: hidden;
   font-size: 24px;
   font-weight: 600;
   border-radius: 5%;
-  width: 210px;
+  width: 300px;
   border-radius: 10px;
   padding: 5px;
   background-color: rgb(255, 255, 255);
 }
 .banner-btn {
   cursor: pointer;
-  color: purple;
+  border-style: hidden;
+  color: rgb(94, 114, 228);
+  width: 75px;
   font-weight: 400;
+  padding: 5px;
   margin-left: 10px;
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
@@ -36,4 +40,8 @@
   font-size: xx-large;
   color: white;
   margin-left: 25px;
+}
+.home-btn {
+  height: 10px;
+  width: 25px;
 }

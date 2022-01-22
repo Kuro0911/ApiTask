@@ -9,22 +9,36 @@
   transition-timing-function: ease-in;
   transition: all 0.5s;
 }
-.search-bar {
-  position: fixed;
-  background-color: white;
-  border-radius: 20px;
-  margin-left: 10px;
-  width: 300px;
-  height: 45px;
-  margin-top: -6px;
-  cursor: pointer;
-}
-
 .nav-profile {
   cursor: pointer;
   position: fixed;
   width: 50px;
   right: 20px;
   object-fit: contain;
+  margin-top: -6px;
+}
+.search-container form {
+  position: relative;
+}
+.search-container form button {
+  position: absolute;
+  right: 0;
+  margin-top: -6px;
+  height: 100%;
+  width: 50px;
+  border-radius: 10px;
+  background: transparent;
+  border: transparent;
+  font-size: 25px;
+  color: #4b00ff;
+  cursor: pointer;
+  outline: 0;
+}
+input[type="text"] {
+  border-radius: 20px;
+  border-style: hidden;
+  margin-left: 10px;
+  width: 300px;
+  height: 40px;
   margin-top: -6px;
 }
